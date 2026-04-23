@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif:wght@400;600;700&family=Plus+Jakarta+Sans:wght@400;500;600&display=swap');
+
+:root {
+  --primary: #1B4332;
+  --primary-light: #2D6A4F;
+  --secondary: #FFB703;
+  --tertiary: #8B4513;
+  --neutral: #F8F9FA;
+  --white: #ffffff;
+  --text-dark: #1a1a1a;
+  --text-muted: #6c757d;
+  --border: #dee2e6;
+  --shadow: 0 2px 12px rgba(0,0,0,0.08);
+  --radius: 12px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Plus Jakarta Sans', sans-serif;
+  background-color: var(--neutral);
+  color: var(--text-dark);
+}
+
+h1, h2, h3 {
+  font-family: 'Noto Serif', serif;
+}
